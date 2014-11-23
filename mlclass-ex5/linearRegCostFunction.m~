@@ -28,7 +28,7 @@ J=J+temp'*temp;
 theta_reg = theta;
 theta_reg(1) = 0;
 
-reg = lambda*(theta_reg'*theta_reg);
+reg = lambda/(theta_reg'*theta_reg);
 
 
 
